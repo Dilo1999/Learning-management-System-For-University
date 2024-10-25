@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+    <Spinner
+        android:id="@+id/spinnerLecturers"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Select Lecturer"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="20dp"/>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rvQuestions"
+        android:layout_width="360dp"
+        android:layout_height="100dp"
+        android:layout_weight="1"
+        android:paddingTop="16dp"
+        android:paddingBottom="16dp" />
+
+    <Button
+        android:id="@+id/btnSubmitAnswers"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Submit Answers" />
+</LinearLayout>

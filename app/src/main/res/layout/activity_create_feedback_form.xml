@@ -1,0 +1,30 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".CreateFeedbackForm">
+
+    <Button
+        android:id="@+id/btnAddQuestion"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Add Question"
+        android:layout_alignParentTop="true" />
+
+    <Button
+        android:id="@+id/btnRemoveQuestion"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Remove Question"
+        android:layout_below="@id/btnAddQuestion"
+        android:layout_marginTop="8dp" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rvQuestions"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/btnRemoveQuestion"
+        android:layout_marginTop="8dp"
+        tools:listitem="@layout/item_question" />
+
+</RelativeLayout>

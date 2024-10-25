@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "576613645558",
+    "project_id": "lmsnew-eca25",
+    "storage_bucket": "lmsnew-eca25.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:576613645558:android:386181cc25a6e8178d80d7",
+        "android_client_info": {
+          "package_name": "com.example.lmsnew"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCHW6mfQj8Nspq2ysWHAtsJYqWv0BF93Fc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
